@@ -14,7 +14,7 @@
   <nav class="white " role="navigation">
     <div class="nav-wrapper container">
       <!--<a id="logo-container" href="#" class="brand-logo ">Loosen up</a>-->
-      <a href=""><img src="img/logo.png" height="60" width="150" class="responsive-img right-align"></a>
+      <a href=""><img src="img/logo.png" height="60" width="150" class="responsive-img"></a>
       <ul class="right hide-on-med-and-down ">
         <li><a href="#">Nutrition facts</a></li>
         <li><a href="#">Watson chef</a></li>
@@ -38,13 +38,84 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center pink-text text-lighten-3 ">Better Together</h1>
+        <h1 class="header center pink-text text-lighten-3">Better together</h1>
         <div class="row center">
            <img class="responsive-img" src="img/rosa.png">
           <h5 class="header col s12 light"></h5>
         </div>
         <div class="row center">
-          <a href="file:///Users/Kevintroko/Documents/molecularFood/Molecular%20Food/index.html" id="download-button" class="btn-large waves-effect waves-light pink lighten-3">Contenido Nutricional</a>
+            <!-- Modal Trigger -->
+            <a class="waves-effect waves-light btn-large modal-trigger pink lighten-3" href="#modal1">Contenido nutricional</a>
+
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal black-text">
+              <div class="modal-content">
+                <h4 class="pink-text text-lighten-3">Better together</h4>
+                 <!--responsive-table-->
+                 <table class="striped responsive-table">
+                  <thead>
+                    <tr>
+                        <th data-field="id">Alimento</th>
+                        <th data-field="porcion">Porción</th>
+                        <th data-field="kcal">Kcal</th>
+                        <th data-field="proteína">proteína</th>
+                        <th data-field="grasa">grasa</th>
+                        <th data-field="carbohidratos">carbohidratos</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <tr>
+                      <td>Jugo de tomate</td>
+                      <td>1/2 taza</td>
+                      <td>21</td>
+                      <td>0.9g</td>
+                      <td>0.1g</td>
+                      <td>5.1g</td>
+                    </tr>
+                    <tr>
+                      <td>Apio</td>
+                      <td>5/2 taza</td>
+                      <td>22</td>
+                      <td>0.9g</td>
+                      <td>0.2g</td>
+                      <td>4.0g</td>
+                    </tr>
+                    <tr>
+                      <td>Cerveza</td>
+                      <td>1 lata</td>
+                      <td>153</td>
+                      <td>0g</td>
+                      <td>0g</td>
+                      <td>12.6</td>
+                    </tr>
+                     <tr>
+                      <td>Chile</td>
+                      <td>3 piezas</td>
+                      <td>4</td>
+                      <td>0.2g</td>
+                      <td>0.1g</td>
+                      <td>0.8g</td>
+                    </tr>
+                     <tr>
+                      <td>Limón</td>
+                      <td>4 piezas</td>
+                      <td>0</td>
+                      <td>1.8g</td>
+                      <td>0.5g</td>
+                      <td>16.4g</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <p>esta son las porciones recomendadas por el sistema mexicano de alimentos equivalentes por cada alimento que se encuentre en las bebidas, sin embargo, la cantidad de cada ingrediente es mucho menor en las bebida</p>
+
+
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-pink btn-flat">Aceptar</a>
+              </div>
+            </div>      
         </div>
         <br><br>
 
@@ -62,14 +133,114 @@
         <div class="col s12">
           <div class="icon-block">
             <h2 class="center pink-text text-lighten-3"><i class="material-icons">whatshot</i></h2>
-            <h5 class="center">Day on the beach</h5>
-
-            <p class="light">Una de las cualidades de la Michelada es su refrescante sabor, que la hace ideal para los días soleados en los que se busca algo más que el sabor de una simple cerveza.
-
-En México se considera un excelente remedio para la resaca o cruda, por lo que es común tomarla por las mañanas o a mitad del día.</p>
+            <h5 class="center">Feel the love</h5>
+                 <p class="light center-align">*Se debe recordar que con una sola bebida no se cumplen las dosis de estos nutracéuticos</p>
+              <div class="slider">
+                <ul class="slides">
+                  <li>
+                    <img src="img/foto.jpg"> <!-- random image -->
+                    <div class="caption center-align">
+                      <h3>Licopeno</h3>
+                      <h5 class="light grey-text text-lighten-3">Poderoso antioxidante que protege a las células para del daño y envejecimiento.</h5>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="img/foto1.jpg"> <!-- random image -->
+                    <div class="caption left-align">
+                      <h3>Capsaicina</h3>
+                      <h5 class="light grey-text text-lighten-3">Efectos antiinflamatorios, antiirritantes y analgésicos <br> protector gastroistentinal <br> se utiliza en infecciones parasitárias
+</h5>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="img/foto.jpg"> <!-- random image -->
+                    <div class="caption right-align">
+                      <h3>Vitaminas A, C y E</h3>
+                      <h5 class="light grey-text text-lighten-3">Piel, huesos, dientes y vasos sanguineos sanos</h5>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="img/foto1.jpg"> <!-- random image -->
+                    <div class="caption center-align">
+                      <h3>Potasio</h3>
+                      <h5 class="light grey-text text-lighten-3">Ayuda a nervios y músculos a comunicarse.<br>Expulsa los desechos de las células </h5>
+                    </div>
+                  </li>
+                </ul>
+              </div>
           </div>
         </div>
+      </div>
 
+      <!--   Watson chef   -->
+      <div class="row">
+        <div class="col s12">
+          <div class="icon-block">
+            <h2 class="center pink-text text-lighten-3"><i class="material-icons">language</i></h2>
+            <h5 class="center">Watson Chef</h5>
+            <p class="light">Studies indicate that food sharing common chemical flavor compounds taste good together. Much of Western cooking seeks out these pairings, while some Asian cuisines focus instead on contrasts. Watson provides statistics on the synergy of flavor compounds in each of its recipes (IBM Watson).</p>
+             <img class="responsive-img" src="img/watson4.png">
+          </div>
+        </div>
+      </div>
+
+       <!--   Facts chef   -->
+      <div class="row">
+        <div class="col s12">
+          <div class="icon-block">
+            <h2 class="center pink-text text-lighten-3"><i class="material-icons">insert_emoticon</i></h2>
+            <h5 class="center">Nutraceúticos</h5>
+            <p class="light"></p>
+
+              <ul class="collection">
+                <!--Food-->
+                <li class="collection-item avatar">
+                  <img src="img/food/clamato.png" alt="" class="circle">
+                  <span class="title"><b>Jugo de tomate</b></span>
+                  <p>Vitaminas A, E y C <br>
+                    Contiene licopeno, potasio y fibra
+                  </p>
+                  <a href="#!" class="secondary-content"><i class="material-icons pink-text text-lighten-3">whatshot</i></a>
+                </li>
+                <!--Food-->
+                <li class="collection-item avatar">
+                  <img src="img/food/apio.png" alt="" class="circle">
+                  <span class="title"><b>Apio</b></span>
+                  <p>Acido fólico <br>
+                    Potasio
+                  </p>
+                  <a href="#!" class="secondary-content"><i class="material-icons pink-text text-lighten-3">whatshot</i></a>
+                 </li>
+                  <!--Food-->
+                  <li class="collection-item avatar">
+                  <img src="img/food/chile.png" alt="" class="circle">
+                  <span class="title"><b>Chile</b></span>
+                  <p>Contiene capsaicina
+                  </p>
+                  <a href="#!" class="secondary-content"><i class="material-icons pink-text text-lighten-3">whatshot</i></a>
+                 </li>
+                   <!--Food-->
+                  <li class="collection-item avatar">
+                  <img src="img/food/limon.png" alt="" class="circle">
+                  <span class="title"><b>Limon</b></span>
+                  <p>Vitamina C <br>
+                    Potasio
+                  </p>
+                  <a href="#!" class="secondary-content"><i class="material-icons pink-text text-lighten-3">whatshot</i></a>
+                 </li>
+                   <!--Food-->
+                  <li class="collection-item avatar">
+                  <img src="img/food/cerveza.png" alt="" class="circle">
+                  <span class="title"><b>Cerveza</b></span>
+                  <p>Protector cardiovascular <br>
+                    Anti-agregante plaquetario y antiinflamatorio
+                  </p>
+                  <a href="#!" class="secondary-content"><i class="material-icons pink-text text-lighten-3">whatshot</i></a>
+                 </li>
+              </ul>
+
+          </div>
+        </div>
       </div>
 
     </div>
@@ -89,7 +260,7 @@ En México se considera un excelente remedio para la resaca o cruda, por lo que 
   <div class="container">
     <div class="section">
 
-
+    
 
     </div>
   </div>
@@ -105,7 +276,7 @@ En México se considera un excelente remedio para la resaca o cruda, por lo que 
           <p class="grey-text text-lighten-4">We are a team of college students working on this project to develop a new way of tasting flavours with the help of the molecular food. </p>
          
          <!--audio-->
-          <audio src="music/song4.mp3" autoplay>
+          <audio src="music/song2.mp3" autoplay>
             <p>If you are reading this, it is because your browser does not support the audio element.     </p>
           </audio>
 
